@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>AddContentServlet</servlet-name>
+        <servlet-class>_4slt.controller.AddContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddContentServlet</servlet-name>
+        <url-pattern>/AddContentServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddKeywordServlet</servlet-name>
+        <servlet-class>_4slt.controller.AddKeywordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddKeywordServlet</servlet-name>
+        <url-pattern>/AddKeywordServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ReFreshKeywordServlet</servlet-name>
+        <servlet-class>_4slt.controller.ReFreshKeywordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReFreshKeywordServlet</servlet-name>
+        <url-pattern>/ReFreshKeywordServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <servlet-class>_4slt.controller.DeleteArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <url-pattern>/DeleteArticleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateArticleServlet</servlet-name>
+        <servlet-class>_4slt.controller.UpdateArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateArticleServlet</servlet-name>
+        <url-pattern>/UpdateArticleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteMessageServlet</servlet-name>
+        <servlet-class>_4slt.controller.DeleteMessageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteMessageServlet</servlet-name>
+        <url-pattern>/DeleteMessageServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
